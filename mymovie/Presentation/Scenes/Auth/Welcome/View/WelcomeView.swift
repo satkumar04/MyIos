@@ -53,7 +53,7 @@ struct WelcomeView: View {
     }
 }
 
-
+// Mark
 private enum Constants {
        enum ContentStack {
            static let spacing: CGFloat = 40
