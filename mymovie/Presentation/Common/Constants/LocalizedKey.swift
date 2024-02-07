@@ -13,6 +13,7 @@ enum LocalizedKey {
         static let title = LocalizedStringKey("WelcomeTitle")
         static let body = LocalizedStringKey("WelcomeBody")
     }
+    //Mark
 
     enum TabTitle {
         static let home = LocalizedStringKey("Home")
