@@ -29,6 +29,13 @@
 		F5232E512B70EFCE007E06B4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5232E502B70EFCE007E06B4 /* Coordinator.swift */; };
 		F5232E532B70F0EB007E06B4 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5232E522B70F0EB007E06B4 /* Routable.swift */; };
 		F5232E562B70F25C007E06B4 /* BackgroundColorViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5232E552B70F25C007E06B4 /* BackgroundColorViewModifier.swift */; };
+		F55AE0222B73B12100AC4FB2 /* PersonalRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0212B73B12100AC4FB2 /* PersonalRegistrationView.swift */; };
+		F55AE0242B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0232B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift */; };
+		F55AE0262B73B16B00AC4FB2 /* PersonalInfoRegistrationViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0252B73B16B00AC4FB2 /* PersonalInfoRegistrationViewState.swift */; };
+		F55AE0292B73B30700AC4FB2 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0282B73B30700AC4FB2 /* Gender.swift */; };
+		F55AE02B2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE02A2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift */; };
+		F55AE02F2B73E22100AC4FB2 /* ValidateEmailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE02E2B73E22100AC4FB2 /* ValidateEmailUseCase.swift */; };
+		F55AE0312B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0302B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +63,13 @@
 		F5232E502B70EFCE007E06B4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F5232E522B70F0EB007E06B4 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		F5232E552B70F25C007E06B4 /* BackgroundColorViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorViewModifier.swift; sourceTree = "<group>"; };
+		F55AE0212B73B12100AC4FB2 /* PersonalRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRegistrationView.swift; sourceTree = "<group>"; };
+		F55AE0232B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoRegistrationViewModel.swift; sourceTree = "<group>"; };
+		F55AE0252B73B16B00AC4FB2 /* PersonalInfoRegistrationViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoRegistrationViewState.swift; sourceTree = "<group>"; };
+		F55AE0282B73B30700AC4FB2 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		F55AE02A2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewModel.swift; sourceTree = "<group>"; };
+		F55AE02E2B73E22100AC4FB2 /* ValidateEmailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateEmailUseCase.swift; sourceTree = "<group>"; };
+		F55AE0302B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateUsernameUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +142,8 @@
 		F5232E052B6E4460007E06B4 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				F55AE02C2B73E1CC00AC4FB2 /* UseCases */,
+				F55AE0272B73B2D200AC4FB2 /* Entities */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -153,6 +169,7 @@
 		F5232E082B6E4D0A007E06B4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				F55AE01E2B73B0C600AC4FB2 /* PersonalInfoRegistration */,
 				F5232E1F2B6E9F82007E06B4 /* Coordinator */,
 				F5232E092B6E4D1F007E06B4 /* Welcome */,
 			);
@@ -283,6 +300,58 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
+		F55AE01E2B73B0C600AC4FB2 /* PersonalInfoRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0202B73B0F000AC4FB2 /* ViewModel */,
+				F55AE01F2B73B0E900AC4FB2 /* View */,
+			);
+			path = PersonalInfoRegistration;
+			sourceTree = "<group>";
+		};
+		F55AE01F2B73B0E900AC4FB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0212B73B12100AC4FB2 /* PersonalRegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F55AE0202B73B0F000AC4FB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0232B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift */,
+				F55AE0252B73B16B00AC4FB2 /* PersonalInfoRegistrationViewState.swift */,
+				F55AE02A2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F55AE0272B73B2D200AC4FB2 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0282B73B30700AC4FB2 /* Gender.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F55AE02C2B73E1CC00AC4FB2 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE02D2B73E20100AC4FB2 /* Validation */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		F55AE02D2B73E20100AC4FB2 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE02E2B73E22100AC4FB2 /* ValidateEmailUseCase.swift */,
+				F55AE0302B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,16 +428,23 @@
 				F5232E1A2B6E9B60007E06B4 /* WelcomeViewModel.swift in Sources */,
 				F5232E4F2B70EF01007E06B4 /* AuthCoordinator.swift in Sources */,
 				F5232E402B70DB9B007E06B4 /* ScreenFactory.swift in Sources */,
+				F55AE02F2B73E22100AC4FB2 /* ValidateEmailUseCase.swift in Sources */,
 				F5232E4D2B70EE1A007E06B4 /* AuthCoordinatorView.swift in Sources */,
 				F5232E422B70DC57007E06B4 /* CoordinatorFactoryProtocols.swift in Sources */,
 				F5232E512B70EFCE007E06B4 /* Coordinator.swift in Sources */,
 				F5232E462B70E655007E06B4 /* AppFactory.swift in Sources */,
 				F5232E492B70E797007E06B4 /* AppCoordinatorView.swift in Sources */,
 				F5232E152B6E5BFB007E06B4 /* BaseButtonStyle.swift in Sources */,
+				F55AE0312B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift in Sources */,
+				F55AE0292B73B30700AC4FB2 /* Gender.swift in Sources */,
 				F5232E0C2B6E4D55007E06B4 /* WelcomeView.swift in Sources */,
+				F55AE0262B73B16B00AC4FB2 /* PersonalInfoRegistrationViewState.swift in Sources */,
 				F5232E442B70DCB6007E06B4 /* ScreenFactoryProtocols.swift in Sources */,
 				F5232E1D2B6E9C51007E06B4 /* ViewModel.swift in Sources */,
+				F55AE0222B73B12100AC4FB2 /* PersonalRegistrationView.swift in Sources */,
 				F5232E4B2B70E83D007E06B4 /* AppCoordinator.swift in Sources */,
+				F55AE02B2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift in Sources */,
+				F55AE0242B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift in Sources */,
 				F5232E212B6E9FED007E06B4 /* AuthCoordinatorProtocol.swift in Sources */,
 				F5232DF52B6E41E3007E06B4 /* mymovieApp.swift in Sources */,
 				F5232E532B70F0EB007E06B4 /* Routable.swift in Sources */,
