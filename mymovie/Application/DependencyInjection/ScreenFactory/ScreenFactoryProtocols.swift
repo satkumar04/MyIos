@@ -11,3 +11,14 @@ import SwiftUI
 protocol WelcomeViewFactory {
     func makeWelcomeView(coordinator: AuthCoordinatorProtocol) -> WelcomeView
 }
+@MainActor
+protocol LoginViewFactory {
+    func makeLoginView(coordinator: AuthCoordinatorProtocol) -> WelcomeView
+}
+
+@MainActor
+protocol PersonalInfoRegistrationViewFactory {
+    func makePersonalInfoRegistrationView(
+        coordinator: AuthCoordinatorProtocol
+    ) -> PersonalInfoRegistrationView
+}

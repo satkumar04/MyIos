@@ -51,3 +51,39 @@ final class PersonalInfoRegistrationViewModel:ViewModel{
     }
     
 }
+private extension PersonalInfoRegistrationViewModel {
+
+    func emailUpdated(_ email: String) {
+        state.email = email
+        do {
+            try validateEmailUseCase.execute(email)
+            state.emailError = nil
+        } catch {
+            state.emailError = ValidationErrorHandler.message(for: error)
+        }
+    }
+
+    func usernameUpdated(_ username: String) {
+        state.username = username
+
+        do {
+            try validateUsernameUseCase.execute(username)
+            state.usernameError = nil
+        } catch {
+            state.usernameError = ValidationErrorHandler.message(for: error)
+        }
+    }
+
+    func continueTapped() {
+        let personalInfo = PersonalInfoViewModel(
+            userName: state.username,
+            name: state.name,
+            email: state.email,
+            birthDate: state.birthdate,
+            gender: state.gender
+        )
+
+        coordinator.showPasswordRegistration(personalInfo: personalInfo)
+    }
+}
+

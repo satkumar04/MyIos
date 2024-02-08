@@ -36,6 +36,23 @@
 		F55AE02B2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE02A2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift */; };
 		F55AE02F2B73E22100AC4FB2 /* ValidateEmailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE02E2B73E22100AC4FB2 /* ValidateEmailUseCase.swift */; };
 		F55AE0312B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0302B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift */; };
+		F55AE0342B74AA5A00AC4FB2 /* ValidationErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0332B74AA5A00AC4FB2 /* ValidationErrorHandler.swift */; };
+		F55AE0362B74C0F200AC4FB2 /* ValidatePasswordUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0352B74C0F200AC4FB2 /* ValidatePasswordUseCase.swift */; };
+		F55AE03A2B74C72900AC4FB2 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0392B74C72900AC4FB2 /* AuthView.swift */; };
+		F55AE03D2B74CCD600AC4FB2 /* AuthScreenTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE03C2B74CCD600AC4FB2 /* AuthScreenTitle.swift */; };
+		F55AE03F2B74CD2B00AC4FB2 /* CalloutButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE03E2B74CD2B00AC4FB2 /* CalloutButtonStyle.swift */; };
+		F55AE0412B74CE2600AC4FB2 /* AppNavigationTitleViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0402B74CE2600AC4FB2 /* AppNavigationTitleViewModifier.swift */; };
+		F55AE0432B74E01200AC4FB2 /* DatePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0422B74E01200AC4FB2 /* DatePickerField.swift */; };
+		F55AE0462B74E25B00AC4FB2 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0452B74E25B00AC4FB2 /* DateFormatter+Extensions.swift */; };
+		F55AE0492B74E32E00AC4FB2 /* GenderSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0482B74E32E00AC4FB2 /* GenderSegmentedPicker.swift */; };
+		F55AE04B2B74E84A00AC4FB2 /* BaseSegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE04A2B74E84A00AC4FB2 /* BaseSegmentedPicker.swift */; };
+		F55AE04E2B74EC9700AC4FB2 /* LabeledViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE04D2B74EC9700AC4FB2 /* LabeledViewModifier.swift */; };
+		F55AE0502B74ECE300AC4FB2 /* FormBorderedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE04F2B74ECE300AC4FB2 /* FormBorderedTextFieldStyle.swift */; };
+		F55AE0522B74ED1B00AC4FB2 /* FormItemBackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0512B74ED1B00AC4FB2 /* FormItemBackgroundViewModifier.swift */; };
+		F55AE0542B74EE2300AC4FB2 /* FormTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0532B74EE2300AC4FB2 /* FormTextFieldStyle.swift */; };
+		F55AE0562B74EF8800AC4FB2 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AE0552B74EF8800AC4FB2 /* TintColor.swift */; };
+		F5971B0F2B74F62800F779A2 /* FormErrorableItemViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B0E2B74F62800F779A2 /* FormErrorableItemViewModifier.swift */; };
+		F5971B112B74F66B00F779A2 /* ErrorFooterViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B102B74F66B00F779A2 /* ErrorFooterViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +87,23 @@
 		F55AE02A2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewModel.swift; sourceTree = "<group>"; };
 		F55AE02E2B73E22100AC4FB2 /* ValidateEmailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateEmailUseCase.swift; sourceTree = "<group>"; };
 		F55AE0302B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateUsernameUseCase.swift; sourceTree = "<group>"; };
+		F55AE0332B74AA5A00AC4FB2 /* ValidationErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorHandler.swift; sourceTree = "<group>"; };
+		F55AE0352B74C0F200AC4FB2 /* ValidatePasswordUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatePasswordUseCase.swift; sourceTree = "<group>"; };
+		F55AE0392B74C72900AC4FB2 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F55AE03C2B74CCD600AC4FB2 /* AuthScreenTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreenTitle.swift; sourceTree = "<group>"; };
+		F55AE03E2B74CD2B00AC4FB2 /* CalloutButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutButtonStyle.swift; sourceTree = "<group>"; };
+		F55AE0402B74CE2600AC4FB2 /* AppNavigationTitleViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationTitleViewModifier.swift; sourceTree = "<group>"; };
+		F55AE0422B74E01200AC4FB2 /* DatePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerField.swift; sourceTree = "<group>"; };
+		F55AE0452B74E25B00AC4FB2 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		F55AE0482B74E32E00AC4FB2 /* GenderSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSegmentedPicker.swift; sourceTree = "<group>"; };
+		F55AE04A2B74E84A00AC4FB2 /* BaseSegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSegmentedPicker.swift; sourceTree = "<group>"; };
+		F55AE04D2B74EC9700AC4FB2 /* LabeledViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledViewModifier.swift; sourceTree = "<group>"; };
+		F55AE04F2B74ECE300AC4FB2 /* FormBorderedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormBorderedTextFieldStyle.swift; sourceTree = "<group>"; };
+		F55AE0512B74ED1B00AC4FB2 /* FormItemBackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormItemBackgroundViewModifier.swift; sourceTree = "<group>"; };
+		F55AE0532B74EE2300AC4FB2 /* FormTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextFieldStyle.swift; sourceTree = "<group>"; };
+		F55AE0552B74EF8800AC4FB2 /* TintColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColor.swift; sourceTree = "<group>"; };
+		F5971B0E2B74F62800F779A2 /* FormErrorableItemViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormErrorableItemViewModifier.swift; sourceTree = "<group>"; };
+		F5971B102B74F66B00F779A2 /* ErrorFooterViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorFooterViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +203,7 @@
 		F5232E082B6E4D0A007E06B4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				F5971B122B753E4A00F779A2 /* PasswordRegistration */,
 				F55AE01E2B73B0C600AC4FB2 /* PersonalInfoRegistration */,
 				F5232E1F2B6E9F82007E06B4 /* Coordinator */,
 				F5232E092B6E4D1F007E06B4 /* Welcome */,
@@ -203,6 +238,9 @@
 		F5232E0E2B6E596D007E06B4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F55AE0442B74E21C00AC4FB2 /* Extensions */,
+				F55AE0372B74C6FA00AC4FB2 /* Components */,
+				F55AE0322B74A9F600AC4FB2 /* Helpers */,
 				F5232E542B70F246007E06B4 /* ViewModifiers */,
 				F5232E1B2B6E9C37007E06B4 /* Protocols */,
 				F5232E122B6E5B85007E06B4 /* Styles */,
@@ -222,6 +260,7 @@
 		F5232E122B6E5B85007E06B4 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				F55AE0572B74F07000AC4FB2 /* TextFieldStyles */,
 				F5232E132B6E5BA7007E06B4 /* ButtonStyles */,
 			);
 			path = Styles;
@@ -231,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				F5232E142B6E5BFB007E06B4 /* BaseButtonStyle.swift */,
+				F55AE03E2B74CD2B00AC4FB2 /* CalloutButtonStyle.swift */,
 			);
 			path = ButtonStyles;
 			sourceTree = "<group>";
@@ -295,7 +335,10 @@
 		F5232E542B70F246007E06B4 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				F55AE04C2B74EC8200AC4FB2 /* Form */,
 				F5232E552B70F25C007E06B4 /* BackgroundColorViewModifier.swift */,
+				F55AE0402B74CE2600AC4FB2 /* AppNavigationTitleViewModifier.swift */,
+				F55AE0552B74EF8800AC4FB2 /* TintColor.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -348,8 +391,112 @@
 			children = (
 				F55AE02E2B73E22100AC4FB2 /* ValidateEmailUseCase.swift */,
 				F55AE0302B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift */,
+				F55AE0352B74C0F200AC4FB2 /* ValidatePasswordUseCase.swift */,
 			);
 			path = Validation;
+			sourceTree = "<group>";
+		};
+		F55AE0322B74A9F600AC4FB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0332B74AA5A00AC4FB2 /* ValidationErrorHandler.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F55AE0372B74C6FA00AC4FB2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0472B74E31600AC4FB2 /* Pickers */,
+				F55AE03B2B74CCAE00AC4FB2 /* Labels */,
+				F55AE0382B74C70F00AC4FB2 /* CustomViews */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F55AE0382B74C70F00AC4FB2 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0392B74C72900AC4FB2 /* AuthView.swift */,
+				F55AE0422B74E01200AC4FB2 /* DatePickerField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		F55AE03B2B74CCAE00AC4FB2 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE03C2B74CCD600AC4FB2 /* AuthScreenTitle.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		F55AE0442B74E21C00AC4FB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0452B74E25B00AC4FB2 /* DateFormatter+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F55AE0472B74E31600AC4FB2 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0482B74E32E00AC4FB2 /* GenderSegmentedPicker.swift */,
+				F55AE04A2B74E84A00AC4FB2 /* BaseSegmentedPicker.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		F55AE04C2B74EC8200AC4FB2 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE04D2B74EC9700AC4FB2 /* LabeledViewModifier.swift */,
+				F55AE0512B74ED1B00AC4FB2 /* FormItemBackgroundViewModifier.swift */,
+				F5971B0E2B74F62800F779A2 /* FormErrorableItemViewModifier.swift */,
+				F5971B102B74F66B00F779A2 /* ErrorFooterViewModifier.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		F55AE0572B74F07000AC4FB2 /* TextFieldStyles */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE0582B74F0D400AC4FB2 /* Forms */,
+			);
+			path = TextFieldStyles;
+			sourceTree = "<group>";
+		};
+		F55AE0582B74F0D400AC4FB2 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				F55AE04F2B74ECE300AC4FB2 /* FormBorderedTextFieldStyle.swift */,
+				F55AE0532B74EE2300AC4FB2 /* FormTextFieldStyle.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		F5971B122B753E4A00F779A2 /* PasswordRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B142B753E6D00F779A2 /* ViewModel */,
+				F5971B132B753E6500F779A2 /* View */,
+			);
+			path = PasswordRegistration;
+			sourceTree = "<group>";
+		};
+		F5971B132B753E6500F779A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5971B142B753E6D00F779A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,10 +571,15 @@
 			files = (
 				F5232DF72B6E41E3007E06B4 /* ContentView.swift in Sources */,
 				F5232E182B6E9B18007E06B4 /* WelcomeViewState.swift in Sources */,
+				F55AE03D2B74CCD600AC4FB2 /* AuthScreenTitle.swift in Sources */,
+				F5971B112B74F66B00F779A2 /* ErrorFooterViewModifier.swift in Sources */,
+				F55AE03A2B74C72900AC4FB2 /* AuthView.swift in Sources */,
 				F5232E112B6E59B3007E06B4 /* LocalizedKey.swift in Sources */,
 				F5232E1A2B6E9B60007E06B4 /* WelcomeViewModel.swift in Sources */,
 				F5232E4F2B70EF01007E06B4 /* AuthCoordinator.swift in Sources */,
+				F55AE0362B74C0F200AC4FB2 /* ValidatePasswordUseCase.swift in Sources */,
 				F5232E402B70DB9B007E06B4 /* ScreenFactory.swift in Sources */,
+				F55AE0462B74E25B00AC4FB2 /* DateFormatter+Extensions.swift in Sources */,
 				F55AE02F2B73E22100AC4FB2 /* ValidateEmailUseCase.swift in Sources */,
 				F5232E4D2B70EE1A007E06B4 /* AuthCoordinatorView.swift in Sources */,
 				F5232E422B70DC57007E06B4 /* CoordinatorFactoryProtocols.swift in Sources */,
@@ -436,16 +588,28 @@
 				F5232E492B70E797007E06B4 /* AppCoordinatorView.swift in Sources */,
 				F5232E152B6E5BFB007E06B4 /* BaseButtonStyle.swift in Sources */,
 				F55AE0312B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift in Sources */,
+				F55AE0542B74EE2300AC4FB2 /* FormTextFieldStyle.swift in Sources */,
 				F55AE0292B73B30700AC4FB2 /* Gender.swift in Sources */,
 				F5232E0C2B6E4D55007E06B4 /* WelcomeView.swift in Sources */,
 				F55AE0262B73B16B00AC4FB2 /* PersonalInfoRegistrationViewState.swift in Sources */,
+				F55AE03F2B74CD2B00AC4FB2 /* CalloutButtonStyle.swift in Sources */,
 				F5232E442B70DCB6007E06B4 /* ScreenFactoryProtocols.swift in Sources */,
+				F5971B0F2B74F62800F779A2 /* FormErrorableItemViewModifier.swift in Sources */,
+				F55AE04E2B74EC9700AC4FB2 /* LabeledViewModifier.swift in Sources */,
+				F55AE04B2B74E84A00AC4FB2 /* BaseSegmentedPicker.swift in Sources */,
+				F55AE0432B74E01200AC4FB2 /* DatePickerField.swift in Sources */,
+				F55AE0342B74AA5A00AC4FB2 /* ValidationErrorHandler.swift in Sources */,
+				F55AE0562B74EF8800AC4FB2 /* TintColor.swift in Sources */,
 				F5232E1D2B6E9C51007E06B4 /* ViewModel.swift in Sources */,
+				F55AE0502B74ECE300AC4FB2 /* FormBorderedTextFieldStyle.swift in Sources */,
 				F55AE0222B73B12100AC4FB2 /* PersonalRegistrationView.swift in Sources */,
 				F5232E4B2B70E83D007E06B4 /* AppCoordinator.swift in Sources */,
 				F55AE02B2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift in Sources */,
+				F55AE0492B74E32E00AC4FB2 /* GenderSegmentedPicker.swift in Sources */,
 				F55AE0242B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift in Sources */,
+				F55AE0412B74CE2600AC4FB2 /* AppNavigationTitleViewModifier.swift in Sources */,
 				F5232E212B6E9FED007E06B4 /* AuthCoordinatorProtocol.swift in Sources */,
+				F55AE0522B74ED1B00AC4FB2 /* FormItemBackgroundViewModifier.swift in Sources */,
 				F5232DF52B6E41E3007E06B4 /* mymovieApp.swift in Sources */,
 				F5232E532B70F0EB007E06B4 /* Routable.swift in Sources */,
 				F5232E562B70F25C007E06B4 /* BackgroundColorViewModifier.swift in Sources */,

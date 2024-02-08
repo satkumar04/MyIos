@@ -26,3 +26,20 @@ extension ScreenFactory: WelcomeViewFactory {
     }
 }
 
+// MARK: - PersonalInfoRegistrationViewFactory
+
+extension ScreenFactory: PersonalInfoRegistrationViewFactory {
+    func makePersonalInfoRegistrationView(
+        coordinator: AuthCoordinatorProtocol
+    ) -> PersonalInfoRegistrationView {
+        let viewModel = PersonalInfoRegistrationViewModel(
+            coordinator: coordinator,
+            validateEmailUseCase: appFactory.makeValidateEmailUseCase(),
+            validateUsernameUseCase: appFactory.makeValidateUsernameUseCase()
+        )
+        let view = PersonalInfoRegistrationView(viewModel: viewModel)
+
+        return view
+    }
+}
+

@@ -9,8 +9,9 @@ import SwiftUI
 
 final class AuthCoordinator: Coordinator{
     enum Screen: Routable {
-        case login
+        //case login
         case personalInfoRegistration
+        case passwordRegistration(PersonalInfoViewModel)
     }
     
     @Published var navigationPath = [Screen]()
@@ -24,8 +25,8 @@ final class AuthCoordinator: Coordinator{
 }
 
 extension AuthCoordinator: AuthCoordinatorProtocol {
-    func showPasswordRegistration() {
-        
+    func showPasswordRegistration(personalInfo: PersonalInfoViewModel) {
+        navigationPath.append(.passwordRegistration(personalInfo))
     }
     
 
@@ -35,7 +36,7 @@ extension AuthCoordinator: AuthCoordinatorProtocol {
 
     func showLogin() {
         updatePathForLogin()
-        navigationPath.append(.login)
+        //navigationPath.append(.login)
     }
 
     func showPersonalInfoRegistration() {
@@ -49,9 +50,9 @@ extension AuthCoordinator: AuthCoordinatorProtocol {
 private extension AuthCoordinator {
 
     func updatePathForPersonalInfoRegistration() {
-        if case .login = navigationPath.last {
-            navigationPath.removeLast()
-        }
+//        if case .login = navigationPath.last {
+//            navigationPath.removeLast()
+//        }
     }
 
     func updatePathForLogin() {

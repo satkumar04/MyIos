@@ -28,7 +28,14 @@ struct AuthCoordinatorView: View {
     
     @ViewBuilder
     private func destination(_ screen: AuthCoordinator.Screen) -> some View {
-       
+        switch screen {
+//        case .login:
+//            factory.makeLoginView(coordinator: coordinator)
+        case .personalInfoRegistration:
+           factory.makePersonalInfoRegistrationView(coordinator: coordinator)
+        case .passwordRegistration(let personalInfo):
+            factory.makePersonalInfoRegistrationView(coordinator: coordinator)
+        }
     }
     
 }

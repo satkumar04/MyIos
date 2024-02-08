@@ -11,6 +11,6 @@ protocol AuthCoordinatorProtocol {
     func showLogin()
     func showMainScene()
     func showPersonalInfoRegistration()
-    func showPasswordRegistration()
+    func showPasswordRegistration(personalInfo: PersonalInfoViewModel)
 }
 
