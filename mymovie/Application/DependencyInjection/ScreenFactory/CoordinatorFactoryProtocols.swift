@@ -7,4 +7,5 @@
 
 import Foundation
 
-protocol AuthCoordinatorFactory: WelcomeViewFactory,PersonalInfoRegistrationViewFactory{}
+protocol AuthCoordinatorFactory: WelcomeViewFactory,PersonalInfoRegistrationViewFactory,
+                                 PasswordRegistrationViewFactory{}

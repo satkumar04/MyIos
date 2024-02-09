@@ -43,3 +43,22 @@ extension ScreenFactory: PersonalInfoRegistrationViewFactory {
     }
 }
 
+// MARK: - PasswordRegistrationViewFactory
+
+extension ScreenFactory: PasswordRegistrationViewFactory {
+    func makePasswordRegistrationView(
+        personalInfo: PersonalInfoViewModel,
+        coordinator: AuthCoordinatorProtocol
+    ) -> PasswordRegistrationView {
+        let viewModel = PasswordRegistrationViewModel(
+            personalInfo: personalInfo,
+            coordinator: coordinator,
+            //registerUserUseCase: appFactory.makeRegisterUserUseCase(),
+            validatePasswordUseCase: appFactory.makeValidatePasswordUseCase()
+        )
+        let view = PasswordRegistrationView(viewModel: viewModel)
+
+        return view
+    }
+}
+

@@ -22,3 +22,11 @@ protocol PersonalInfoRegistrationViewFactory {
         coordinator: AuthCoordinatorProtocol
     ) -> PersonalInfoRegistrationView
 }
+
+@MainActor
+protocol PasswordRegistrationViewFactory {
+    func makePasswordRegistrationView(
+        personalInfo: PersonalInfoViewModel,
+        coordinator: AuthCoordinatorProtocol
+    ) -> PasswordRegistrationView
+}

@@ -34,7 +34,7 @@ struct AuthCoordinatorView: View {
         case .personalInfoRegistration:
            factory.makePersonalInfoRegistrationView(coordinator: coordinator)
         case .passwordRegistration(let personalInfo):
-            factory.makePersonalInfoRegistrationView(coordinator: coordinator)
+            factory.makePasswordRegistrationView(personalInfo: personalInfo, coordinator: coordinator)
         }
     }
     
