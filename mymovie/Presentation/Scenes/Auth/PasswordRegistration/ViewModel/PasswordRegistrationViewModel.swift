@@ -12,19 +12,19 @@ final class PasswordRegistrationViewModel:ViewModel{
 
     private var personalInfo: PersonalInfoViewModel
     private let coordinator: AuthCoordinatorProtocol
-    //private let registerUserUseCase: RegisterUserUseCase
+    private let registerUserUseCase: RegisterUserUseCase
     private let validatePasswordUseCase: ValidatePasswordUseCase
 
     init(
         personalInfo: PersonalInfoViewModel,
         coordinator: AuthCoordinatorProtocol,
-       // registerUserUseCase: RegisterUserUseCase,
+        registerUserUseCase: RegisterUserUseCase,
         validatePasswordUseCase: ValidatePasswordUseCase
     ) {
         self.state = .init()
         self.personalInfo = personalInfo
         self.coordinator = coordinator
-       // self.registerUserUseCase = registerUserUseCase
+        self.registerUserUseCase = registerUserUseCase
         self.validatePasswordUseCase = validatePasswordUseCase
     }
     func handle(_ event: PasswordRegistrationViewEvent) {
@@ -73,23 +73,23 @@ private extension PasswordRegistrationViewModel{
     }
 
     func registerTapped() async {
-//        let userRegister = UserRegister(
-//            userName: personalInfo.userName,
-//            name: personalInfo.name,
-//            password: state.password,
-//            email: personalInfo.email,
-//            birthDate: personalInfo.birthDate.ISO8601Format(),
-//            gender: personalInfo.gender
-//        )
-//
-//        state.isLoading = true
-//        do {
-//            try await registerUserUseCase.execute(userRegister)
-//            state.registerError = nil
-//            coordinator.showMainScene()
-//        } catch {
-//            state.registerError = LocalizedKey.ErrorMessage.registrationFailed
-//        }
-//        state.isLoading = false
+        let userRegister = UserRegister(
+            userName: personalInfo.userName,
+            name: personalInfo.name,
+            password: state.password,
+            email: personalInfo.email,
+            birthDate: personalInfo.birthDate.ISO8601Format(),
+            gender: personalInfo.gender
+        )
+
+        state.isLoading = true
+        do {
+            try await registerUserUseCase.execute(userRegister)
+            state.registerError = nil
+            coordinator.showMainScene()
+        } catch {
+            state.registerError = LocalizedKey.ErrorMessage.registrationFailed
+        }
+        state.isLoading = false
     }
 }

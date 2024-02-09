@@ -53,7 +53,7 @@ extension ScreenFactory: PasswordRegistrationViewFactory {
         let viewModel = PasswordRegistrationViewModel(
             personalInfo: personalInfo,
             coordinator: coordinator,
-            //registerUserUseCase: appFactory.makeRegisterUserUseCase(),
+            registerUserUseCase: appFactory.makeRegisterUserUseCase(),
             validatePasswordUseCase: appFactory.makeValidatePasswordUseCase()
         )
         let view = PasswordRegistrationView(viewModel: viewModel)

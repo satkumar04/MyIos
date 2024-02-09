@@ -7,6 +7,14 @@
 
 import Foundation
 final class AppFactory {
+    private lazy var keychainService = KeychainService()
+    private lazy var networkService = NetworkService(keychainService: keychainService)
+
+    
+    private lazy var authRepository = AuthRepositoryImplementation(
+        networkService: networkService,
+        keychainService: keychainService
+    )
 }
 
 // MARK: - Validation
@@ -23,5 +31,9 @@ extension AppFactory {
 
     func makeValidatePasswordUseCase() -> ValidatePasswordUseCase {
         ValidatePasswordUseCase()
+    }
+    
+    func makeRegisterUserUseCase() -> RegisterUserUseCase {
+        RegisterUserUseCase(authRepository: authRepository)
     }
 }

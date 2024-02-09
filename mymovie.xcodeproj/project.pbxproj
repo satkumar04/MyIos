@@ -58,6 +58,23 @@
 		F5971B1A2B7544CD00F779A2 /* PasswordRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B192B7544CD00F779A2 /* PasswordRegistrationView.swift */; };
 		F5971B1C2B75455800F779A2 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B1B2B75455800F779A2 /* SecureInputView.swift */; };
 		F5971B1F2B7545C400F779A2 /* BaseProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B1E2B7545C400F779A2 /* BaseProgressView.swift */; };
+		F5971B212B75F51B00F779A2 /* UserRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B202B75F51B00F779A2 /* UserRegister.swift */; };
+		F5971B242B75F5ED00F779A2 /* RegisterUserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B232B75F5ED00F779A2 /* RegisterUserUseCase.swift */; };
+		F5971B272B75F6EC00F779A2 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B262B75F6EC00F779A2 /* AuthRepository.swift */; };
+		F5971B2A2B75FED200F779A2 /* AuthRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B292B75FED200F779A2 /* AuthRepositoryImpl.swift */; };
+		F5971B2E2B7603A800F779A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B2D2B7603A800F779A2 /* NetworkService.swift */; };
+		F5971B302B76049600F779A2 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B2F2B76049600F779A2 /* KeyChainService.swift */; };
+		F5971B332B76105A00F779A2 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B322B76105A00F779A2 /* NetworkConfig.swift */; };
+		F5971B362B7611AB00F779A2 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B352B7611AB00F779A2 /* HTTPTask.swift */; };
+		F5971B382B76135600F779A2 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B372B76135600F779A2 /* HTTPMethod.swift */; };
+		F5971B3A2B76142700F779A2 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B392B76142700F779A2 /* NetworkError.swift */; };
+		F5971B3D2B76149400F779A2 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B3C2B76149400F779A2 /* URLParameterEncoder.swift */; };
+		F5971B3F2B7614CF00F779A2 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B3E2B7614CF00F779A2 /* HTTPStatusCode.swift */; };
+		F5971B422B76150C00F779A2 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B412B76150C00F779A2 /* AuthError.swift */; };
+		F5971B442B7620CF00F779A2 /* AuthNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B432B7620CF00F779A2 /* AuthNetworkConfig.swift */; };
+		F5971B462B76226800F779A2 /* UserRegisterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B452B76226800F779A2 /* UserRegisterDTO.swift */; };
+		F5971B482B7622A000F779A2 /* GenderDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B472B7622A000F779A2 /* GenderDTO.swift */; };
+		F5971B4A2B76232C00F779A2 /* TokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5971B492B76232C00F779A2 /* TokenInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +131,23 @@
 		F5971B192B7544CD00F779A2 /* PasswordRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRegistrationView.swift; sourceTree = "<group>"; };
 		F5971B1B2B75455800F779A2 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
 		F5971B1E2B7545C400F779A2 /* BaseProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProgressView.swift; sourceTree = "<group>"; };
+		F5971B202B75F51B00F779A2 /* UserRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegister.swift; sourceTree = "<group>"; };
+		F5971B232B75F5ED00F779A2 /* RegisterUserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserUseCase.swift; sourceTree = "<group>"; };
+		F5971B262B75F6EC00F779A2 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		F5971B292B75FED200F779A2 /* AuthRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryImpl.swift; sourceTree = "<group>"; };
+		F5971B2D2B7603A800F779A2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F5971B2F2B76049600F779A2 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		F5971B322B76105A00F779A2 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		F5971B352B7611AB00F779A2 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		F5971B372B76135600F779A2 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F5971B392B76142700F779A2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		F5971B3C2B76149400F779A2 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		F5971B3E2B7614CF00F779A2 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		F5971B412B76150C00F779A2 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		F5971B432B7620CF00F779A2 /* AuthNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNetworkConfig.swift; sourceTree = "<group>"; };
+		F5971B452B76226800F779A2 /* UserRegisterDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterDTO.swift; sourceTree = "<group>"; };
+		F5971B472B7622A000F779A2 /* GenderDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderDTO.swift; sourceTree = "<group>"; };
+		F5971B492B76232C00F779A2 /* TokenInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +213,8 @@
 		F5232E042B6E444C007E06B4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F5971B2B2B76038200F779A2 /* Networking */,
+				F5971B282B75FEA100F779A2 /* Repositories */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -186,6 +222,7 @@
 		F5232E052B6E4460007E06B4 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				F5971B252B75F6C400F779A2 /* Repositories */,
 				F55AE02C2B73E1CC00AC4FB2 /* UseCases */,
 				F55AE0272B73B2D200AC4FB2 /* Entities */,
 			);
@@ -384,6 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				F55AE0282B73B30700AC4FB2 /* Gender.swift */,
+				F5971B202B75F51B00F779A2 /* UserRegister.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -391,6 +429,7 @@
 		F55AE02C2B73E1CC00AC4FB2 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				F5971B222B75F5C500F779A2 /* Auth */,
 				F55AE02D2B73E20100AC4FB2 /* Validation */,
 			);
 			path = UseCases;
@@ -522,6 +561,90 @@
 			path = ProgressView;
 			sourceTree = "<group>";
 		};
+		F5971B222B75F5C500F779A2 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B232B75F5ED00F779A2 /* RegisterUserUseCase.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F5971B252B75F6C400F779A2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B262B75F6EC00F779A2 /* AuthRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F5971B282B75FEA100F779A2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B292B75FED200F779A2 /* AuthRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F5971B2B2B76038200F779A2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B402B76150100F779A2 /* Models */,
+				F5971B2C2B76039900F779A2 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F5971B2C2B76039900F779A2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B3B2B76147D00F779A2 /* Encoding */,
+				F5971B342B76118A00F779A2 /* Common */,
+				F5971B312B76103F00F779A2 /* Configs */,
+				F5971B2D2B7603A800F779A2 /* NetworkService.swift */,
+				F5971B2F2B76049600F779A2 /* KeyChainService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F5971B312B76103F00F779A2 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B322B76105A00F779A2 /* NetworkConfig.swift */,
+				F5971B432B7620CF00F779A2 /* AuthNetworkConfig.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		F5971B342B76118A00F779A2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B352B7611AB00F779A2 /* HTTPTask.swift */,
+				F5971B372B76135600F779A2 /* HTTPMethod.swift */,
+				F5971B392B76142700F779A2 /* NetworkError.swift */,
+				F5971B3E2B7614CF00F779A2 /* HTTPStatusCode.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F5971B3B2B76147D00F779A2 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B3C2B76149400F779A2 /* URLParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		F5971B402B76150100F779A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5971B412B76150C00F779A2 /* AuthError.swift */,
+				F5971B452B76226800F779A2 /* UserRegisterDTO.swift */,
+				F5971B472B7622A000F779A2 /* GenderDTO.swift */,
+				F5971B492B76232C00F779A2 /* TokenInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -592,21 +715,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5971B422B76150C00F779A2 /* AuthError.swift in Sources */,
 				F5232DF72B6E41E3007E06B4 /* ContentView.swift in Sources */,
 				F5232E182B6E9B18007E06B4 /* WelcomeViewState.swift in Sources */,
 				F55AE03D2B74CCD600AC4FB2 /* AuthScreenTitle.swift in Sources */,
 				F5971B112B74F66B00F779A2 /* ErrorFooterViewModifier.swift in Sources */,
 				F55AE03A2B74C72900AC4FB2 /* AuthView.swift in Sources */,
 				F5232E112B6E59B3007E06B4 /* LocalizedKey.swift in Sources */,
+				F5971B362B7611AB00F779A2 /* HTTPTask.swift in Sources */,
 				F5232E1A2B6E9B60007E06B4 /* WelcomeViewModel.swift in Sources */,
+				F5971B3D2B76149400F779A2 /* URLParameterEncoder.swift in Sources */,
+				F5971B3F2B7614CF00F779A2 /* HTTPStatusCode.swift in Sources */,
+				F5971B302B76049600F779A2 /* KeyChainService.swift in Sources */,
 				F5232E4F2B70EF01007E06B4 /* AuthCoordinator.swift in Sources */,
+				F5971B3A2B76142700F779A2 /* NetworkError.swift in Sources */,
 				F55AE0362B74C0F200AC4FB2 /* ValidatePasswordUseCase.swift in Sources */,
 				F5971B1A2B7544CD00F779A2 /* PasswordRegistrationView.swift in Sources */,
 				F5232E402B70DB9B007E06B4 /* ScreenFactory.swift in Sources */,
 				F5971B1F2B7545C400F779A2 /* BaseProgressView.swift in Sources */,
 				F55AE0462B74E25B00AC4FB2 /* DateFormatter+Extensions.swift in Sources */,
+				F5971B332B76105A00F779A2 /* NetworkConfig.swift in Sources */,
 				F55AE02F2B73E22100AC4FB2 /* ValidateEmailUseCase.swift in Sources */,
 				F5232E4D2B70EE1A007E06B4 /* AuthCoordinatorView.swift in Sources */,
+				F5971B242B75F5ED00F779A2 /* RegisterUserUseCase.swift in Sources */,
 				F5232E422B70DC57007E06B4 /* CoordinatorFactoryProtocols.swift in Sources */,
 				F5232E512B70EFCE007E06B4 /* Coordinator.swift in Sources */,
 				F5232E462B70E655007E06B4 /* AppFactory.swift in Sources */,
@@ -615,7 +746,9 @@
 				F5971B162B75419900F779A2 /* PasswordRegistrationViewState.swift in Sources */,
 				F5232E492B70E797007E06B4 /* AppCoordinatorView.swift in Sources */,
 				F5232E152B6E5BFB007E06B4 /* BaseButtonStyle.swift in Sources */,
+				F5971B482B7622A000F779A2 /* GenderDTO.swift in Sources */,
 				F55AE0312B73ECD400AC4FB2 /* ValidateUsernameUseCase.swift in Sources */,
+				F5971B272B75F6EC00F779A2 /* AuthRepository.swift in Sources */,
 				F55AE0542B74EE2300AC4FB2 /* FormTextFieldStyle.swift in Sources */,
 				F55AE0292B73B30700AC4FB2 /* Gender.swift in Sources */,
 				F5232E0C2B6E4D55007E06B4 /* WelcomeView.swift in Sources */,
@@ -627,16 +760,23 @@
 				F55AE04B2B74E84A00AC4FB2 /* BaseSegmentedPicker.swift in Sources */,
 				F55AE0432B74E01200AC4FB2 /* DatePickerField.swift in Sources */,
 				F55AE0342B74AA5A00AC4FB2 /* ValidationErrorHandler.swift in Sources */,
+				F5971B212B75F51B00F779A2 /* UserRegister.swift in Sources */,
 				F55AE0562B74EF8800AC4FB2 /* TintColor.swift in Sources */,
+				F5971B4A2B76232C00F779A2 /* TokenInfo.swift in Sources */,
 				F5232E1D2B6E9C51007E06B4 /* ViewModel.swift in Sources */,
+				F5971B2E2B7603A800F779A2 /* NetworkService.swift in Sources */,
+				F5971B2A2B75FED200F779A2 /* AuthRepositoryImpl.swift in Sources */,
 				F55AE0502B74ECE300AC4FB2 /* FormBorderedTextFieldStyle.swift in Sources */,
+				F5971B382B76135600F779A2 /* HTTPMethod.swift in Sources */,
 				F55AE0222B73B12100AC4FB2 /* PersonalRegistrationView.swift in Sources */,
 				F5232E4B2B70E83D007E06B4 /* AppCoordinator.swift in Sources */,
+				F5971B442B7620CF00F779A2 /* AuthNetworkConfig.swift in Sources */,
 				F55AE02B2B73B3D900AC4FB2 /* PersonalInfoViewModel.swift in Sources */,
 				F55AE0492B74E32E00AC4FB2 /* GenderSegmentedPicker.swift in Sources */,
 				F55AE0242B73B13D00AC4FB2 /* PersonalInfoRegistrationViewModel.swift in Sources */,
 				F55AE0412B74CE2600AC4FB2 /* AppNavigationTitleViewModifier.swift in Sources */,
 				F5232E212B6E9FED007E06B4 /* AuthCoordinatorProtocol.swift in Sources */,
+				F5971B462B76226800F779A2 /* UserRegisterDTO.swift in Sources */,
 				F55AE0522B74ED1B00AC4FB2 /* FormItemBackgroundViewModifier.swift in Sources */,
 				F5232DF52B6E41E3007E06B4 /* mymovieApp.swift in Sources */,
 				F5232E532B70F0EB007E06B4 /* Routable.swift in Sources */,

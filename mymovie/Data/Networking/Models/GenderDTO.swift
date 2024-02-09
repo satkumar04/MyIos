@@ -6,3 +6,7 @@
 //
 
 import Foundation
+enum GenderDTO: Int, Codable {
+    case male
+    case female
+}

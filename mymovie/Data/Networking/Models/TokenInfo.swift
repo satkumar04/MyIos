@@ -6,3 +6,6 @@
 //
 
 import Foundation
+struct TokenInfo: Decodable {
+    let token: String
+}
